@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: fitcore-api
+    runtime: docker
+    dockerfilePath: ./fitcore-api/Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: fitcore-db
+          property: connectionString
+      - key: JWT_SECRET
+        sync: false
+
+databases:
+  - name: fitcore-db
+    databaseName: fitcore
+    user: fitcore
