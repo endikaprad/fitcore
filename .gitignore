@@ -1,3 +1,8 @@
+# Claude Code
+CLAUDE.md
+.claude/
+skills-lock.json
+
 # Maven
 fitcore-api/target/
 fitcore-api/.mvn/wrapper/maven-wrapper.jar
