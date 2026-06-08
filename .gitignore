@@ -1,0 +1,22 @@
+# Maven
+fitcore-api/target/
+fitcore-api/.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# Environment
+.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (para cuando se cree el frontend)
+node_modules/
+.expo/
+dist/
