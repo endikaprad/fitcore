@@ -3,6 +3,9 @@ CLAUDE.md
 .claude/
 skills-lock.json
 
+# Carpeta fitcore embebida (repo duplicado)
+fitcore/
+
 # Maven
 fitcore-api/target/
 fitcore-api/.mvn/wrapper/maven-wrapper.jar
